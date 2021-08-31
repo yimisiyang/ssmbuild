@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--1.  配置数据源，由于和spring整合，所以交给spring去做该事情即可  -->
+
+    <!--2.  取别名  -->
+    <typeAliases>
+        <package name="cn.tj712.pojo"/>
+    </typeAliases>
+
+    <!--3.将mapper.xml绑定到配置文件中-->
+    <mappers>
+        <mapper class="cn.tj712.dao.BookMapper"/>
+    </mappers>
+
+</configuration>
