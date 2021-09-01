@@ -3,6 +3,7 @@ package cn.tj712.service;
 import cn.tj712.dao.BookMapper;
 import cn.tj712.pojo.Books;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.List;
  * @Time: 18:21
  * @author: ThinkPad
  */
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class BookServiceImpl implements BookService {
