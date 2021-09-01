@@ -21,7 +21,7 @@ public class BookServiceImpl implements BookService {
      * service层调用dao层
      */
     private BookMapper bookMapper;
-    
+
     @Override
     public int addBook(Books books) {
         return bookMapper.addBook(books);
